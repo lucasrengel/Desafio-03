@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e988142f-06a0-4871-9f3e-6ad0d5cd2937" name="Changes" comment="✨ feat: arquivo docker-compose">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e988142f-06a0-4871-9f3e-6ad0d5cd2937" name="Changes" comment="✨ feat: arquivos idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,7 +231,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732628423579</updated>
       <workItem from="1732628424634" duration="11749000" />
-      <workItem from="1732627964104" duration="684000" />
+      <workItem from="1732627964104" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="🎉 commit inicial">
       <option name="closed" value="true" />
@@ -403,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733147319748</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="✨ feat: arquivos idea">
+      <option name="closed" value="true" />
+      <created>1733147910245</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733147910245</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,6 +436,7 @@
     <MESSAGE value="✨ feat: classe de teste e dockerfile" />
     <MESSAGE value="✨ feat: git ignore" />
     <MESSAGE value="✨ feat: arquivo docker-compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ feat: arquivo docker-compose" />
+    <MESSAGE value="✨ feat: arquivos idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ feat: arquivos idea" />
   </component>
 </project>
