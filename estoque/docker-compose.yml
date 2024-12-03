@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  postgres-estoque:
+    image: postgres:15-alpine
+    container_name: postgres-estoque
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: estoque_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres-estoque-data:/var/lib/postgresql/data
+
+  estoque-service:
+    build:
+      context: ./
+    container_name: estoque-service
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-estoque:5432/estoque_db
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 123456
+    depends_on:
+      - postgres-estoque
+
+volumes:
+  postgres-estoque-data:
