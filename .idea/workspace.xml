@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e988142f-06a0-4871-9f3e-6ad0d5cd2937" name="Changes" comment="fix: atualiza o jdk para 21">
-      <change afterPath="$PROJECT_DIR$/cliente/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estoque/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido/docker-compose.yml" afterDir="false" />
+    <list default="true" id="e988142f-06a0-4871-9f3e-6ad0d5cd2937" name="Changes" comment="fix: atualiza as imagens do docker">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cliente/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estoque/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/estoque/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +243,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732628423579</updated>
       <workItem from="1732628424634" duration="11749000" />
-      <workItem from="1732627964104" duration="9670000" />
+      <workItem from="1732627964104" duration="17581000" />
     </task>
     <task id="LOCAL-00001" summary="🎉 commit inicial">
       <option name="closed" value="true" />
@@ -437,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733240102664</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fix: atualiza as imagens do docker">
+      <option name="closed" value="true" />
+      <created>1733243139284</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733243139284</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +474,7 @@
     <MESSAGE value="✨ feat: arquivos idea" />
     <MESSAGE value="✨ feat: git ignore" />
     <MESSAGE value="fix: atualiza o jdk para 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: atualiza o jdk para 21" />
+    <MESSAGE value="fix: atualiza as imagens do docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: atualiza as imagens do docker" />
   </component>
 </project>
